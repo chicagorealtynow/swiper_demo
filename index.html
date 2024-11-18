@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Swiper -->
+    <div class="container">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <h2>Effortless Navigation</h2>
+                    <div class="text">
+                        Swiper JS revolutionizes the way users navigate through content on your website. With its smooth
+                        and intuitive interface, users can effortlessly glide through pages, creating a seamless
+                        browsing experience. Our clients love how Swiper JS enhances user engagement and simplifies
+                        navigation, ultimately leading to higher conversion rates.
+                    </div>
+                    <div class="client-img">
+                        <img src="images/client-img.jpeg" alt="">
+                    </div>
+                    <div class="client">
+                        <p>John Doe</p>
+                        <span>CEO, Tech Solutions Inc.</span>
+                    </div>
+                    <div class="btn-group">
+                        <button class="red-btn">
+                            See Demo
+                        </button>
+                        <button class="white-btn">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                    <h2>Sleek and Responsive Design</h2>
+                    <div class="text">
+                        One of the standout features of Swiper JS is its sleek and responsive design. Whether viewed on
+                        a desktop, tablet, or mobile device, Swiper JS ensures that your content looks stunning and is
+                        easily accessible. Our clients appreciate the attention to detail and the seamless user
+                        experience that Swiper JS provides, helping them showcase their brand in the best possible
+                        light.
+                    </div>
+                    <div class="client-img">
+                        <img src="images/client-img.jpeg" alt="">
+                    </div>
+                    <div class="client">
+                        <p>Jane Smith</p>
+                        <span>Creative Director, Design Studios Co.</span>
+                    </div>
+                    <div class="btn-group">
+                        <button class="red-btn">
+                            View Showcase
+                        </button>
+                        <button class="white-btn">
+                            Get Started
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="swiper-slide">
+                    <h2>Exceptional Performance and Speed</h2>
+                    <div class="text">
+                        In today's fast-paced digital world, speed is paramount. Swiper JS delivers exceptional
+                        performance, offering lightning-fast page load times and smooth transitions. Our clients have
+                        seen significant improvements in user engagement and retention thanks to the blazing-fast
+                        performance of Swiper JS. Say goodbye to laggy slideshows and hello to a seamless browsing
+                        experience!
+                    </div>
+                    <div class="client-img">
+                        <img src="images/client-img.jpeg" alt="">
+                    </div>
+                    <div class="client">
+                        <p>Michael Johnson</p>
+                        <span>CTO, Digital Solutions Group</span>
+                    </div>
+                    <div class="btn-group">
+                        <button class="red-btn">
+                            Explore Features
+                        </button>
+                        <button class="white-btn">
+                            Contact Us
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="swiper-slide">
+                    <h2>Seamless Integration with Existing Projects</h2>
+                    <div class="text">
+                        Integrating Swiper JS into your project is a breeze. Whether you're working with React, Vue.js,
+                        or plain HTML/CSS, Swiper JS seamlessly integrates with your existing codebase, saving you time
+                        and effort. Our clients love how easy it is to customize Swiper JS to match their brand's unique
+                        style and requirements, giving them full control over their content and design.
+                    </div>
+                    <div class="client-img">
+                        <img src="images/client-img.jpeg" alt="">
+                    </div>
+                    <div class="client">
+                        <p>Emily Williams</p>
+                        <span>Lead Developer, WebWorks Ltd.</span>
+                    </div>
+                    <div class="btn-group">
+                        <button class="red-btn">
+                            Try It Now
+                        </button>
+                        <button class="white-btn">
+                            Request a Demo
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Slide 5 -->
+                <div class="swiper-slide">
+                    <h2>Endless Possibilities for Creativity</h2>
+                    <div class="text">
+                        With Swiper JS, the possibilities are endless. From stunning image galleries to captivating
+                        carousels, Swiper JS empowers you to unleash your creativity and bring your vision to life. Our
+                        clients love experimenting with Swiper JS's wide range of customization options, including slide
+                        layouts, navigation styles, and animation effects, allowing them to create truly unique and
+                        engaging user experiences.
+                    </div>
+                    <div class="client-img">
+                        <img src="images/client-img.jpeg" alt="">
+                    </div>
+                    <div class="client">
+                        <p>David Brown</p>
+                        <span>Product Manager, App Innovations LLC</span>
+                    </div>
+                    <div class="btn-group">
+                        <button class="red-btn">
+                            Get Inspired
+                        </button>
+                        <button class="white-btn">
+                            Start Creating
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".swiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            effect: "cards",
+            grabCursor: true,
+            initialSlide: 2,
+            speed: 1000,
+            loop: true,
+            mousewheel: true
+        });
+    </script>
+</body>
+
+</html>
